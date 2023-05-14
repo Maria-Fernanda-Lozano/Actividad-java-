@@ -4,7 +4,7 @@ import java.sql.*;
 
 public class BasicConnectionSingleton {
     private static String url =
-            "jdbc:mysql://localhost:3307/Juanito?serverTimezone=America/Bogota";
+            "jdbc:mysql://localhost:3307/mafe?serverTimezone=America/Bogota";
     private static String user = "root";
     private static String pass = "";
     private static Connection conn;
