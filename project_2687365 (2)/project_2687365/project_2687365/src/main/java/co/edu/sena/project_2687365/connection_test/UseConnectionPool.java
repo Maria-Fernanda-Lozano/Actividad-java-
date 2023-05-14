@@ -14,7 +14,7 @@ public class UseConnectionPool {
             throws SQLException {
         try (Connection conn = getConnection();
              Statement stmt = conn.createStatement();
-             ResultSet rs = stmt.executeQuery("SELECT * FROM Juanito.users_tbl")) {
+             ResultSet rs = stmt.executeQuery("SELECT * FROM mafe.users_tbl")) {
  while (rs.next()) {
 
             System.out.print(rs.getString("user_firstname"));
