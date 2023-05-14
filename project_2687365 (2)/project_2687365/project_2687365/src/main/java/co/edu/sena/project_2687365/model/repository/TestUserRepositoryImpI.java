@@ -11,15 +11,15 @@ public class TestUserRepositoryImpI {
 
         System.out.println("========== saveObj Insert ==========");
         User userInsert = new User();
-        userInsert.setUser_fistname("Hector");
-        userInsert.setUser_lastname("Beltran");
-        userInsert.setUser_email("Hecter2023@gmail.com");
-        userInsert.setUser_password("wasd0630");
+        userInsert.setUser_fistname("Cesar");
+        userInsert.setUser_lastname("Lozano");
+        userInsert.setUser_email("Cesarlozano2109@gmail.com");
+        userInsert.setUser_password("C3247");
         repository.saveObj(userInsert);
-        userInsert.setUser_fistname("Brayan");
-        userInsert.setUser_lastname("Alfonso");
-        userInsert.setUser_email("Brayis111@gmail.com");
-        userInsert.setUser_password("GomitasconPapas777");
+        userInsert.setUser_fistname("Sara");
+        userInsert.setUser_lastname("Ruiz");
+        userInsert.setUser_email("Sara489@gmail.com");
+        userInsert.setUser_password("bts2799");
         repository.saveObj(userInsert);
 
         System.out.println("========== listAllObj ==========");
@@ -33,10 +33,10 @@ public class TestUserRepositoryImpI {
         System.out.println("========== saveObj ==========");
         User userUpdate = new User();
         userUpdate.setUser_id(2);
-        userUpdate.setUser_fistname("Sebastian");
-        userUpdate.setUser_lastname("Rondon");
-        userUpdate.setUser_email("Sebas777@gmail.com");
-        userUpdate.setUser_password("S3bas1212");
+        userUpdate.setUser_fistname("Tatiana");
+        userUpdate.setUser_lastname("Cañon");
+        userUpdate.setUser_email("Tata1104@gmail.com");
+        userUpdate.setUser_password("Tata8934");
         repository.saveObj(userInsert);
         repository.listAllObj().forEach(System.out::println);
         System.out.println();
