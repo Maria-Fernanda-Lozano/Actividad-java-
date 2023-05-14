@@ -5,10 +5,10 @@ public class BasicConnectionWithResources
     {
         public static void main(String[] args)
         {
-            String url = "jdbc:mysql://localhost:3307/Juanito?serverTimezone=America/Bogota";
+            String url = "jdbc:mysql://localhost:3307/mafe?serverTimezone=America/Bogota";
             String username = "root";
             String password = "";
-            String sql = "SELECT * FROM Juanito.users_tbl";
+            String sql = "SELECT * FROM mafe.users_tbl";
             try (Connection conn = DriverManager.getConnection(url, username, password);
                  Statement stmt = conn.createStatement();
                  ResultSet rs = stmt.executeQuery(sql)) {
